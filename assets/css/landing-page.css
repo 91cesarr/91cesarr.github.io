@@ -65,10 +65,10 @@ body {
 }
 
 a {
-  color: #2ca8ff;
+  color: #373B44;
 }
 a:hover, a:focus {
-  color: #109cff;
+  color: #4e54c8;
   text-decoration: none;
 }
 
@@ -541,7 +541,7 @@ a:focus, a:active {
 }
 
 .footer {
-  background-color: white;
+  background-color: #fafbfc;
   line-height: 20px;
 }
 .footer nav > ul {
@@ -578,7 +578,7 @@ a:focus, a:active {
   color: #777777;
 }
 .footer .copyright {
-  color: #777777;
+  color: #586069;
   padding: 10px 15px;
   margin: 15px 3px;
   line-height: 20px;
@@ -760,9 +760,6 @@ a:focus, a:active {
 .landing-page .section-clients h3 {
   margin-top: 10px;
 }
-.landing-page .social-line {
-  border-bottom: 1px solid #dddddd;
-}
 .landing-page .carousel-indicators {
   bottom: -50px;
 }
@@ -846,11 +843,11 @@ a:focus, a:active {
 .logo-container .brand{
     font-size: 18px;
     color: #FFFFFF;
-    line-height: 20px;
+    /* line-height: 20px; */
     float: left;
     margin-left: 10px;
-    margin-top: 5px;
-    width: 50px;
+    margin-top: 10px;
+    width: 120px;
     height: 50px;
 }
 .logo-container{
@@ -982,7 +979,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .landing-page .footer{
-  padding: 20px 0;
+  padding: 0;
 }
 .landing-page .parallax .parallax-background{
   position: relative;
@@ -998,7 +995,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .landing-page .parallax .parallax-image{
   width: 100%;
   margin: 0 auto;
-  margin-top: 145px;
+  margin-top: 215px;
   float: right;
   text-align: center;
 }
@@ -1009,7 +1006,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .landing-page .parallax .parallax-image img.phone{
-  width: 80%;
+  width: 100%;
   float: right;
 }
 
