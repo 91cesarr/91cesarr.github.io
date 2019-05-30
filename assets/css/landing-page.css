@@ -1553,6 +1553,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 @media (max-width:768px){
+  .landing-page .parallax .description h5 {
+    line-height:1.1;
+  }
     .fixed-plugin{
         top: 80px;
         right: 0px;
