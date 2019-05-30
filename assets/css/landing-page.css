@@ -582,7 +582,7 @@ a:focus, a:active {
   padding: 10px 15px;
   margin: 15px 3px;
   line-height: 20px;
-  text-align: center;
+  text-align: right;
 }
 .footer hr {
   border-color: #dddddd;
@@ -839,7 +839,31 @@ a:focus, a:active {
     width: 50px; 
     float: left;
 }
-
+.description a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+}
+.description a:before {
+      content: '';
+    height: 10px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.2s;
+    transition-property: bottom;
+}
+.description a:hover {
+    transition: .25s;
+    -webkit-transition: .25s;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    color: rgba(0,0,0,1);
+    background:#fff;
+}
 .logo-container .brand{
     font-size: 18px;
     color: #FFFFFF;
@@ -858,7 +882,7 @@ a:focus, a:active {
 }
 
 .landing-page1 .container{
-  max-width: 970px;
+  max-width: 1170px;
 } 
 
 .landing-page2 .container{
@@ -995,7 +1019,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .landing-page .parallax .parallax-image{
   width: 100%;
   margin: 0 auto;
-  margin-top: 215px;
+  margin-top: 205px;
   float: right;
   text-align: center;
 }
@@ -1025,7 +1049,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .landing-page .parallax .description{
-  margin-top: 200px;
+  margin-top: 165px;
   color: white;
   padding: 5px;
 }
@@ -1043,8 +1067,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .landing-page .parallax .description h5 {
   line-height: 1.4;
   font-weight: 400;
-  text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+  /* text-shadow: 0 1px 5px rgba(0,0,0,0.5); */
   font-size: 18px;
+}
+.logos ul img {
+  width: auto;
+  height: 50px;
+  padding: 4px;
 }
 
 .landing-page .parallax .buttons{
@@ -1676,7 +1705,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     height: auto;
   }
   .landing-page .carousel-indicators{
-    bottom: -30px;
+    bottom: -35px;
   }
   .landing-page .carousel{
     min-height: 210px;
