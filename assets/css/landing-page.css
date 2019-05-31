@@ -850,16 +850,16 @@ a:focus, a:active {
     color: #fff;
     text-decoration: none;
     position: relative;
-    white-space: nowrap;
+    border-left:4px solid transparent;
+    padding:2px;
 }
 .description a:before {
-      content: '';
+    content: '';
     height: 10px;
     position: absolute;
     bottom: -2px;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.1);
     transition: 0.2s;
     transition-property: bottom;
 }
@@ -868,8 +868,9 @@ a:focus, a:active {
     -webkit-transition: .25s;
     transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
-    color: rgba(0,0,0,1);
-    background:#fff;
+    color: #fff;
+    background:#444;
+    border-left:4px solid #71ff70;
 }
 .logo-container .brand{
     font-size: 18px;
