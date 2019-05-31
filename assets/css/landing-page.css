@@ -839,6 +839,11 @@ a:focus, a:active {
     width: 50px; 
     float: left;
 }
+.logo_ph {
+  margin:40px 0;
+  width:900px;
+  height:500px;
+}
 .description a {
     color: #fff;
     text-decoration: none;
@@ -965,13 +970,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
 .filter-gradient.green:after{
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzQ4ZjUwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU2YjRkMyIgc3RvcC1vcGFjaXR5PSIwLjg3Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-background: -moz-linear-gradient(45deg,  rgba(52,143,80,1) 0%, rgba(86, 211, 146, 0.75) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(52,143,80,1)), color-stop(100%,rgba(86, 211, 146, 0.75))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(45deg,  rgba(52,143,80,1) 0%,rgba(86, 211, 146, 0.75) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(45deg,  rgba(52,143,80,1) 0%,rgba(86, 211, 146, 0.75) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(45deg,  rgba(52,143,80,1) 0%,rgba(86, 211, 146, 0.75) 100%); /* IE10+ */
-background: linear-gradient(45deg,  rgba(52,143,80,1) 0%,rgba(86, 211, 146, 0.75) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#348f50', endColorstr='#de56b4d3',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+background: -moz-linear-gradient(45deg,  rgba(144, 212, 190,1) 0%, rgba(0, 105, 70, 0.75) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(144, 212, 190,1)), color-stop(100%,rgba(0, 105, 70, 0.75))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  rgb(144, 212, 190) 0%,rgb(0, 105, 70) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  rgb(144, 212, 190) 0%,rgb(0, 105, 70) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  rgb(144, 212, 190) 0%,rgb(0, 105, 70) 100%); /* IE10+ */
+background: linear-gradient(45deg,  rgb(144, 212, 190) 0%,rgb(0, 105, 70) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#90d4be', endColorstr='#006946',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 
 }
 .filter-gradient.orange:after{
@@ -1062,6 +1067,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   text-shadow: 0 1px 5px rgba(0,0,0,0.2);
   font-weight: 200;
   font-size: 40px;
+  text-align: left;
 }
 
 .landing-page .parallax .description h5 {
@@ -1202,7 +1208,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 
    .landing-page .section-features{
-        margin: 50px 0;
+        margin: 0;
    }
 
    .landing-page .section-features .card{
@@ -1553,8 +1559,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 @media (max-width:768px){
+  .logo_ph {
+    margin: 40px 0;
+    width: 300px;
+    height: 225px;
+}
   .landing-page .parallax .description h5 {
     line-height:1.1;
+    text-align:left;
   }
     .fixed-plugin{
         top: 80px;
@@ -1690,7 +1702,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     height: 100%;
   }
   .landing-page .parallax .description{
-    margin-top: 65px;  }
+    margin-top: 115px;  }
   .landing-page .parallax .buttons{
     margin: 20px 0;
   }
@@ -1719,6 +1731,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 @media (min-width: 768px){
+    .logo_ph {
+  margin:40px 0;
+  width:650px;
+  height:400px;
+}
     .landing-page .navbar-top{
         padding-top: 10px;
     }
