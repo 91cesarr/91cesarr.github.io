@@ -1483,7 +1483,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .fixed-plugin .adjustments-line p{
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     margin-bottom: 0;
     font-size: 1em;
 }
