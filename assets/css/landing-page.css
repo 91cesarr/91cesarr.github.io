@@ -584,7 +584,16 @@ a:focus, a:active {
   padding: 10px 15px;
   margin: 15px 3px;
   line-height: 20px;
-  text-align: right;
+  text-align: center;
+}
+.copyright i::before {
+    color: red;
+    font-size: 20px;
+}
+.barf {
+  color:black;
+  text-decoration: line-through;
+  transform: translate(5%, 0) rotate(-30deg);
 }
 .footer hr {
   border-color: #dddddd;
