@@ -1745,7 +1745,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 @media (min-width: 768px){
     .logo_ph {
   margin:40px 0;
-  width:650px;
+  width:auto;
   height:400px;
 }
     .landing-page .navbar-top{
