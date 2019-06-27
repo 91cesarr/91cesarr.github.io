@@ -119,6 +119,15 @@ section {
         padding: 4px;
       }
     }
+    li:nth-child(5) img {
+      margin: 10px 0;
+    }
+    li:nth-child(6) img {
+      margin: 10px 0;
+    }
+    li:nth-child(7) img {
+      margin: 10px 0;
+    }
   }
 }
 .about_me {
@@ -264,6 +273,16 @@ footer {
     }
     img {
       margin: 14px auto !important;
+      width: 105px !important;
+    }
+    li:nth-child(5) img {
+      width: 120px !important;
+    }
+    li:nth-child(6) img {
+      width: 120px !important;
+    }
+    li:nth-child(7) img {
+      width: 120px !important;
     }
   }
   .about_me {
