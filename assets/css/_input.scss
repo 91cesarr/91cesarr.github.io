@@ -242,6 +242,12 @@ footer {
   /* Styles */
   header {
     font-size: 8px;
+    padding: 0 24px;
+  }
+  .nav {
+    a {
+      padding: 0 6px;
+    }
   }
   .cursive_font {
     font-size: 70px;
