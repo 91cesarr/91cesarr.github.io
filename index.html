@@ -21,7 +21,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="scroller-animate-nav">
       <p class="new">Cesar Perez Zaldivar</p>
       <ul class="nav">
         <li>
@@ -41,19 +41,24 @@
     <section>
       <div class="hero_bg">
         <div class="container">
-          <div
-            class="avatar"
-            transition="true"
-            data-tilt
-            data-tilt-glare
-            data-tilt-max-glare="0.8"
-            data-tilt-max="25"
-            data-tilt-speed="400"
-            data-tilt-perspective="500"
-          ></div>
-          <p class="cursive_font">Portfolio</p>
+          <div id="anim">
+            <div
+              class="avatar scroller-animate-case"
+              transition="true"
+              data-tilt
+              data-tilt-glare
+              data-tilt-max-glare="0.8"
+              data-tilt-max="25"
+              data-tilt-speed="400"
+              data-tilt-perspective="500"
+            ></div>
+          </div>
+          <p class="cursive_font scroller-animate-case">Portfolio</p>
           <a href="#fav" id="fav"
-            ><i data-scroll class="fas fa-chevron-down chev_down"></i
+            ><i
+              data-scroll
+              class="fas fa-chevron-down chev_down scroller-animate"
+            ></i
           ></a>
         </div>
       </div>
