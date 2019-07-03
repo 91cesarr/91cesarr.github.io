@@ -243,6 +243,16 @@ section {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f0f0f0",GradientType=1);
 }
+.rec_title {
+  color: white;
+  padding: 10px;
+}
+.rec_title:hover {
+  transition: 0.3s;
+  color: rgb(202, 210, 255);
+  padding: 10px;
+  text-decoration: none;
+}
 .align_divs {
   display: flex;
   flex-flow: row nowrap;
